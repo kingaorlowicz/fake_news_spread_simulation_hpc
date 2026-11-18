@@ -8,6 +8,7 @@
 #SBATCH --array=0-1
 #SBATCH --output=logs/slurm_%A_%a.out
 #SBATCH --error=logs/slurm_%A_%a.err
+#SBATCH -A plgar2026-cpu
 
 
 
