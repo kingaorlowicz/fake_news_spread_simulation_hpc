@@ -129,7 +129,7 @@ This project demonstrates how network structure drives the spread of viral misin
 - **HPC is essential for high-variance stochastic models:** Because individual simulation runs follow a bimodal ("all-or-nothing") distribution, thousands of iterations per scenario are necessary to obtain stable averages.
 
 
-## 7. Repository Structure
+## Repository Structure
 
 ```bash
 fake_news_spread_simulation_hpc/
@@ -147,3 +147,7 @@ fake_news_spread_simulation_hpc/
 │   └── run.py                      # CLI entry point for batch experiments
 └── README.md
 ```
+
+## Acknowledgments
+
+Computational resources for this project (access to the **Ares** supercomputer) were provided by **ACK Cyfronet AGH** within the **PLGrid** infrastructure, as part of a computational grant for the *Parallel Algorithms* course at AGH University of Krakow.
